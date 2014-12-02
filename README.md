@@ -1,0 +1,4 @@
+MoneyTrash
+==========
+
+Money Trash project

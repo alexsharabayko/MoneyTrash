@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Money Trash</title>
+
+	<link rel="stylesheet" href="css/app.css">
+
+    <script src="js/lib/jquery.js"></script>
+	<script src="js/lib/angular.js"></script>
+    <script src="js/lib/angular-route.js"></script>
+
+    <script src="js/lib/require.js" data-main="js/router.js"></script>
+</head>
+<body>
+	<div class="app">
+		<header class="mainHeader">
+			<h1 class="logo"><a href="#/">Money Trash <span class="small">Manage your money rightly</span></a></h1>
+
+			<ul class="mainNav">
+				<li><a href="javascript:void(0)">Settings</a></li>
+				<li><a href="#/account">Account</a></li>
+				<li><a href="#/history">History</a></li>
+				<li><a href="javascript:void(0)">Help</a></li>
+			</ul>
+		</header>
+
+        <ng-view></ng-view>
+	</div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<div id="account">
+    <h1 class="sectionHeadline">
+        <span class="big">Account</span>
+        <span class="small">Home / Account</span>
+    </h1>
+
+    <section class="accountPanel">
+        <h2 class="panelHeadline">Sign in</h2>
+
+        <form data-action="login">
+            <fieldset>
+                <input class="accountInput" type="text" placeholder="Username:"/>
+                <input class="accountInput right" type="password" placeholder="Password:"/>
+            </fieldset>
+
+            <input type="submit" class="accountSubmit" value="Log in"/>
+        </form>
+    </section>
+
+    <section class="accountPanel">
+        <h2 class="panelHeadline">Registration</h2>
+
+        <form data-action="register">
+            <fieldset>
+                <input class="accountInput" type="text" name="username" placeholder="Username:"/>
+                <input class="accountInput" type="email" name="email" placeholder="Email:"/>
+
+                <input class="accountInput right" type="password" name="password" placeholder="Password:"/>
+                <input class="accountInput right" type="password" placeholder="Confirm password:"/>
+            </fieldset>
+
+            <input type="submit" class="accountSubmit" value="Register"/>
+        </form>
+    </section>
+
+    <section class="accountPanel">
+        <h2 class="panelHeadline">Change password</h2>
+
+        <form data-action="changePassword">
+            <fieldset>
+                <input class="accountInput" type="password" placeholder="Old password:"/>
+
+                <input class="accountInput right" type="password" placeholder="New password:"/>
+                <input class="accountInput right" type="password" placeholder="New password:"/>
+            </fieldset>
+
+            <input type="submit" class="accountSubmit" value="Change"/>
+        </form>
+    </section>
+</div>

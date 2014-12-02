@@ -1,0 +1,22 @@
+{
+    "data": [
+        {
+            "h3": "Profit",
+            "h2": "Spend less",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "imageUrl": "img/mainSlider/lessMoney.jpg"
+        },
+        {
+            "h3": "Statistic",
+            "h2": "Visuality",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "imageUrl": "img/mainSlider/graph.png"
+        },
+        {
+            "h3": "Together do",
+            "h2": "Buckets",
+            "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "imageUrl": "img/mainSlider/together.jpg"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+.sectionHeadline {
+    padding: 20px 20px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.sectionHeadline .big {
+    display: block;
+    margin-bottom: 10px;
+    color: #606569;
+    font-size: 25px;
+}
+
+.sectionHeadline .small {
+    color: #999;
+}
+
+.accountPanel {
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.accountSubmit {
+    padding: 10px 20px;
+    margin-top: 7px;
+    color: white;
+    font-size: 16px;
+    background: #35bc7a;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.panelHeadline {
+    margin-bottom: 10px;
+    color: #606569;
+    font-size: 25px;
+}
+
+.accountInput {
+    float: left;
+    padding: 10px 20px;
+    margin: 7px 0px;
+    width: 55%;
+    font-size: 16px;
+    font-family: RalewayLight;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    outline: none;
+    -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+}
+
+.accountInput.right {
+    float: right;
+}
+
+.accountInput:focus {
+    background-color: white;
+    border-color: #35bc7a;
+}

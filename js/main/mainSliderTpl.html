@@ -1,0 +1,21 @@
+<ul class="mainSlider">
+	<li class="item" ng-repeat="item in data" ng-class="{ 'active': !$index }">
+		<div class="image">
+			<img src="{{ item.imageUrl }}" alt="less money">
+		</div>
+
+		<div class="content">
+			<h3>{{ item.h3 }}</h3>
+
+			<h2>{{ item.h2 }}</h2>
+
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+			<a class="readMore" href="javascript:void()">Read more</a>
+		</div>
+	</li>
+
+	<ul class="switchers">
+		<li class="switcher" ng-repeat="item in data" ng-class="{ 'active': !$index }"></li>
+	</ul>
+</ul>

@@ -1,0 +1,25 @@
+<div class="store">
+	<header class="storeHeader clearfix">
+		<h2>Create a new store</h2>
+
+		<input class="name" type="text" placeholder="Store name:" ng-model="name">
+		<input class="date" type="date" ng-model="date">
+	</header>
+
+	<ul class="items">
+		<li class="storeItem" ng-repeat="item in items">
+			<input type="text" placeholder="Name:" ng-model="item.name">
+			<input type="number" placeholder="Price:" ng-model="item.price">
+			
+			<div class="select">
+				<select ng-model="item.category">
+					<option value="products">Products</option>
+					<option value="tech">Tech</option>
+					<option value="house">House</option>
+				</select>
+			</div>
+		</li>
+
+		<button class="createStore">Create</button>
+	</ul>
+</div>
